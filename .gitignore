@@ -1,2 +1,75 @@
 .DS_Store
 /buildlib
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+BaNG/.idea/**/workspace.xml
+BaNG/.idea/**/tasks.xml
+BaNG/.idea/**/usage.statistics.xml
+BaNG/.idea/**/dictionaries
+BaNG/.idea/**/shelf
+
+# Generated files
+BaNG/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+BaNG/.idea/**/dataSources/
+BaNG/.idea/**/dataSources.ids
+BaNG/.idea/**/dataSources.local.xml
+BaNG/.idea/**/sqlDataSources.xml
+BaNG/.idea/**/dynamic.xml
+BaNG/.idea/**/uiDesigner.xml
+BaNG/.idea/**/dbnavigator.xml
+
+# Gradle
+BaNG/.idea/**/gradle.xml
+BaNG/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# BaNG/.idea/artifacts
+# BaNG/.idea/compiler.xml
+# BaNG/.idea/jarRepositories.xml
+# BaNG/.idea/modules.xml
+# BaNG/.idea/*.iml
+# BaNG/.idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+BaNG/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+BaNG/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+BaNG/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+BaNG/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+BaNG/.idea/caches/build_file_checksums.ser
+BaNG/.idea/

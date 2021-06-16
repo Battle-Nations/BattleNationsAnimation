@@ -49,12 +49,20 @@ import bn.GameFiles;
 import bn.Unit;
 import bn.Unit.Attack;
 import bn.Unit.Weapon;
+import util.Z2RawExporter;
 
 public class AnimationGrabber {
 
 	public static final String VERSION = "1.3.2";
 
 	public static void main(String[] args) {
+//		Z2RawExporter exporter = new Z2RawExporter();
+//		try {
+//			exporter.exportAssets("C:\\BNRExtracted\\Z2RawExport");
+//		} catch (IOException e)
+//		{
+//			System.out.println("Couldn't export all assets");
+//		}
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
